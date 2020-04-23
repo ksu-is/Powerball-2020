@@ -3,5 +3,5 @@ from urllib2
 import requests
 from bs4 import BeautifulSoup
 
-url = "https://www.galottery.com/en-us/games/draw-games/powerball.html#tab-winningNumbers"
+quote_page = "https://www.galottery.com/en-us/games/draw-games/powerball.html#tab-winningNumbers"
 
