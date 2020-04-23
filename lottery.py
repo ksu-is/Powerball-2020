@@ -1,7 +1,7 @@
 # Choose the lottery numbers
 # lottery.py by Ronald Adomako July 7, 2016
 
-from itertools import combinations
+from itertools import combinations #p, r r-length tuples, in sorted order, no repeated elements
 import string
 import timeit
 start_time = timeit.default_timer()
