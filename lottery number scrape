@@ -8,3 +8,5 @@ quote_page = "https://www.galottery.com/en-us/games/draw-games/powerball.html#ta
 page = urllib2.urlopen(quote_page)
 
 soup = BeautifulSoup(page, ‘html.parser’)
+
+name_box = soup.find(‘h1’, attrs={‘class’: ‘legend’})
