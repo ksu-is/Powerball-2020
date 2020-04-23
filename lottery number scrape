@@ -9,4 +9,6 @@ page = urllib2.urlopen(quote_page)
 
 soup = BeautifulSoup(page, ‘html.parser’)
 
-name_box = soup.find(‘h1’, attrs={‘class’: ‘legend’})
+legend_box = soup.find(‘h1’, attrs={‘class’: ‘legend’})
+legend = name_box.text.strip() # strip() is used to remove starting and trailing
+print legend
