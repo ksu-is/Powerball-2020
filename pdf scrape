@@ -2,3 +2,5 @@ import os
 from urllib.parse import urljoin
 import requests
 from bs4 import BeautifulSoup
+
+url = "https://www.galottery.com/en-us/games/draw-games/powerball.html#tab-winningNumbers"
