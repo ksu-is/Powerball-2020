@@ -80,7 +80,7 @@ main()#indent when using command line
 
 
     #history = input(lottery.txt)
-    #work out length of time to finish running
+   
    
 
 
