@@ -5,3 +5,4 @@ from bs4 import BeautifulSoup
 
 quote_page = "https://www.galottery.com/en-us/games/draw-games/powerball.html#tab-winningNumbers"
 
+page = urllib2.urlopen(quote_page)
