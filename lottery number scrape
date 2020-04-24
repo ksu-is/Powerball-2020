@@ -1,14 +1,14 @@
 import os
-from #urllib
+import urllib
 import requests
 from bs4 import BeautifulSoup
 
 quote_page = "https://www.galottery.com/en-us/games/draw-games/powerball.html#tab-winningNumbers"
 
-page = #urllib2.urlopen(quote_page)
+page = urllib.request.urlopen(quote_page)
 
-soup = BeautifulSoup(page, ‘html.parser’)
+soup = BeautifulSoup(page, "html.parser")
 
-legend_box = soup.find(‘h1’, attrs={‘class’: ‘legend’})
+legend_box = soup.find("h1", attrs={"class": "legend"})
 legend = name_box.text.strip() # strip() is used to remove starting and trailing
-print legend
+print(legend)
