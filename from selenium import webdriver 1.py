@@ -10,6 +10,6 @@ driver.get ("https://www.galottery.com/en-us/games/draw-games/powerball.html#tab
 #driver.find_elements_by_xpath('''//*[@id="headerGameBannerInfo"]/div[2]/div[1]/span[1]/i''')[0].text
 elems = driver.find_elements_by_xpath ("""//*[@id="winningNumbersSearchResults"]/table/tbody/tr[1]""") [0].text
 
-print(elems.strip('Powerplay:'))
+print(elems.strip())
 
 driver.close()
